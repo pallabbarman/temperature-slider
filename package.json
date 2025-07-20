@@ -54,5 +54,8 @@
         "vite": "^7.0.4",
         "vite-tsconfig-paths": "^5.1.4",
         "vitest": "^3.2.4"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "4.9.5"
     }
 }
