@@ -4,7 +4,7 @@ import { createBrowserRouter } from 'react-router';
 import routes from '.';
 
 const MainLayout = SuspenseComponent(lazy(() => import('layouts/Main')));
-const Home = SuspenseComponent(lazy(() => import('pages/Home')));
+const Thermometer = SuspenseComponent(lazy(() => import('pages/Thermometer')));
 
 const routerConfig = createBrowserRouter([
     {
@@ -13,7 +13,7 @@ const routerConfig = createBrowserRouter([
         children: [
             {
                 path: routes.home.path,
-                Component: Home,
+                Component: Thermometer,
             },
         ],
     },
